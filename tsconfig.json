@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"sourceMap": true,
+		"outDir": "build",
+		"rootDir": "./", // Update the rootDir property to the correct directory
+		"target": "ESNext",
+		"lib": ["dom", "ESNext"],
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"typeRoots": ["./node_modules/@types", "./models"]
+	}
+}
